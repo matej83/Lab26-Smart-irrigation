@@ -8,7 +8,7 @@
 //----------------------------------------Thinger IO configuration
 #define USERNAME "matejknific"
 #define DEVICE_ID "esp"
-#define DEVICE_CREDENTIAL "Vqe#!R?5pONCZP4e"
+#define DEVICE_CREDENTIAL "***"
 //----------------------------------------
 
 #define ON_Board_LED 2  //--> Defining an On Board LED, used for indicators when the process of connecting to a wifi router. GPIO2 = D4.
@@ -16,8 +16,8 @@
 ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL); //--> Initialize Thinger IO (ThingerESP8266)
 
 //----------------------------------------SSID and Password of your WiFi Router/Hotspot.
-const char* ssid = "net4gear"; //--> Your wifi name or SSID.
-const char* password = "dnevnasoba"; //--> Your wifi password.
+const char* ssid = "SSid"; //--> Your wifi name or SSID.
+const char* password = "****"; //--> Your wifi password.
 //----------------------------------------
 
 //----------------------------------------DHT11 Sensor Configuration
