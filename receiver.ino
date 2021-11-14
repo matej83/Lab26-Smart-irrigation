@@ -74,7 +74,7 @@ void loop() {
   int board1H4 = boardsStruct[0].h4;
   
 
-  int board2X = boardsStruct[1].h1;
+  int board2H1 = boardsStruct[1].h1;
   int board2H2 = boardsStruct[1].h2;
   int board2H3 = boardsStruct[1].h3;
   int board2H4 = boardsStruct[1].h4;
